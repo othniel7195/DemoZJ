@@ -1,0 +1,18 @@
+PODS:
+  - CImageViewDefault (0.1.2)
+  - CNSStringDefault (0.1.5)
+  - CResponderRouter (0.1.1)
+
+DEPENDENCIES:
+  - CImageViewDefault
+  - CNSStringDefault
+  - CResponderRouter
+
+SPEC CHECKSUMS:
+  CImageViewDefault: 22ff18bb23f64e2e84f16860f6764b6dc19dc4c6
+  CNSStringDefault: a7fc29a83c1653389ffa9ccc7eb49e950674b23d
+  CResponderRouter: 4992b15f1adf7c23432c51aedf891e0dde5c59b0
+
+PODFILE CHECKSUM: 030d83887b95af8e4c7359c9490963ec62e34d1b
+
+COCOAPODS: 1.3.1

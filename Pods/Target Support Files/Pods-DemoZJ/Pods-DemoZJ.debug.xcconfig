@@ -1,0 +1,10 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/CNSStringDefault/CNSStringDefault-0.1.5/ios"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CImageViewDefault" "${PODS_ROOT}/Headers/Public/CNSStringDefault" "${PODS_ROOT}/Headers/Public/CResponderRouter"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/CImageViewDefault" "$PODS_CONFIGURATION_BUILD_DIR/CResponderRouter"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/CImageViewDefault" -isystem "${PODS_ROOT}/Headers/Public/CNSStringDefault" -isystem "${PODS_ROOT}/Headers/Public/CResponderRouter"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"CImageViewDefault" -l"CResponderRouter" -framework "CNSStringDefault" -framework "UIKit"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

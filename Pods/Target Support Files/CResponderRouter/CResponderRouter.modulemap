@@ -1,0 +1,6 @@
+framework module CResponderRouter {
+  umbrella header "CResponderRouter-umbrella.h"
+
+  export *
+  module * { export * }
+}
